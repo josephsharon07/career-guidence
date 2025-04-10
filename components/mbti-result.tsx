@@ -323,7 +323,7 @@ const MBTIResult = ({ result, age }: MBTIResultProps) => {
                         <div className="aspect-[2/3] overflow-hidden rounded-lg shadow-lg">
                           <img
                             src={book.cover}
-                            alt={book.name}
+                            alt={book.name || 'Book cover'}
                             className="w-full h-full object-cover"
                           />
                         </div>
@@ -334,7 +334,12 @@ const MBTIResult = ({ result, age }: MBTIResultProps) => {
                         </h4>
                         {book.author && (
                           <p className="text-sm text-gray-600">
-                            by {typeof book.author === 'string' ? book.author : book.author.name}
+                            by {Array.isArray(book.author) 
+                              ? book.author.join(', ')
+                              : typeof book.author === 'string' 
+                                ? book.author 
+                                : book.author.name
+                            }
                           </p>
                         )}
                       </div>

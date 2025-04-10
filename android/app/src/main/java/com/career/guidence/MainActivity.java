@@ -1,4 +1,4 @@
-package com.echoghat.companion;
+package com.career.guidence;
 
 import com.getcapacitor.BridgeActivity;
 

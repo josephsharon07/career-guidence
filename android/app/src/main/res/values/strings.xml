@@ -2,6 +2,6 @@
 <resources>
     <string name="app_name">Empowering Young Minds</string>
     <string name="title_activity_main">Empowering Young Minds</string>
-    <string name="package_name">com.echoghat.companion</string>
-    <string name="custom_url_scheme">com.echoghat.companion</string>
+    <string name="package_name">com.career.guidence</string>
+    <string name="custom_url_scheme">com.career.guidence</string>
 </resources>

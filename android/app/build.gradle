@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace "com.echoghat.companion"
+    namespace "com.career.guidence"
     compileSdk rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.echoghat.companion"
+        applicationId "com.career.guidence"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
