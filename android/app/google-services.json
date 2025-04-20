@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "4192606833",
+    "project_id": "empowering-young-minds-1c74d",
+    "storage_bucket": "empowering-young-minds-1c74d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4192606833:android:9a167c851e09256843d9d0",
+        "android_client_info": {
+          "package_name": "com.career.guidence"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzkT3_NT1yLVnAz0-Wynig6spiX3EJa-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
